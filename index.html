@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!-- lang="pt-BR" informa o idioma da página -->
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fanverso: leia e escreva fanfics com personagens de desenhos, filmes, séries e atores.">
+  <meta name="theme-color" content="#ff5a1f">
+  <title>Fanverso — Onde as histórias dos fãs ganham vida</title>
+  <!-- Google Fonts: Fraunces (títulos) + Plus Jakarta Sans (textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- CSS em arquivo externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="topo">
+
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Cabeçalho: logo, busca e menu -->
+  <header class="cabecalho">
+    <div class="container">
+      <a class="logo" href="#topo"><span class="logo-icone">F</span> Fanverso</a>
+      <form class="busca-topo" action="#" role="search">
+        <input type="search" name="busca" placeholder="Buscar histórias, fandoms, autores..." aria-label="Buscar">
+      </form>
+      <nav class="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="#em-alta">Em alta</a></li>
+          <li><a href="#fandoms">Fandoms</a></li>
+          <li><a href="#escrever">Escrever</a></li>
+        </ul>
+        <a class="botao botao-contorno" href="#">Entrar</a>
+        <a class="botao" href="#">Cadastre-se</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grade">
+        <div class="hero-texto">
+          <span class="etiqueta">✦ +2 milhões de leitores</span>
+          <h1>Onde as histórias dos fãs <em>ganham vida.</em></h1>
+          <p>Leia fanfics de graça, vote nos seus capítulos favoritos e escreva o final que você sempre quis para seus personagens.</p>
+          <div class="hero-acoes">
+            <a class="botao botao-grande" href="#em-alta">Começar a ler</a>
+            <a class="botao botao-grande botao-contorno" href="#escrever">Começar a escrever</a>
+          </div>
+        </div>
+        <!-- Pilha de capas animadas -->
+        <div class="pilha" aria-hidden="true">
+          <img class="pilha-capa p1" src="img/romance.jpg" alt="" width="960" height="720">
+          <img class="pilha-capa p2" src="img/fantasia.jpg" alt="" width="960" height="720">
+          <img class="pilha-capa p3" src="img/capa.jpg" alt="" width="1280" height="832">
+        </div>
+      </div>
+    </section>
+
+    <!-- Fandoms / gêneros -->
+    <section id="fandoms" class="secao secao-faixa">
+      <div class="container">
+        <ul class="chips">
+          <li><a href="#">🗡️ Fantasia</a></li>
+          <li><a href="#">💘 Romance</a></li>
+          <li><a href="#">🚀 Sci-fi</a></li>
+          <li><a href="#">😂 Comédia</a></li>
+          <li><a href="#">👻 Terror</a></li>
+          <li><a href="#">🔍 Mistério</a></li>
+          <li><a href="#">🎬 Atores</a></li>
+          <li><a href="#">📺 Desenhos</a></li>
+          <li><a href="#">🌀 Crossover</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Prateleira: Em alta -->
+    <section id="em-alta" class="secao">
+      <div class="container">
+        <div class="titulo-secao">
+          <div>
+            <h2>Em alta esta semana</h2>
+            <p>As fanfics mais lidas pela comunidade.</p>
+          </div>
+          <a class="link-seta" href="#">Ver tudo →</a>
+        </div>
+        <div class="prateleira">
+          <article class="livro">
+            <a class="capa" href="#" aria-label="Ler O Último Portal">
+              <img src="img/fantasia.jpg" alt="" width="960" height="720" loading="lazy">
+              <span class="ranking">#1</span>
+              <span class="capa-titulo">O Último Portal</span>
+              <span class="capa-autor">@estrela_cadente</span>
+            </a>
+            <div class="livro-info">
+              <h3>O Último Portal</h3>
+              <ul class="stats">
+                <li title="Leituras">👁 2,4 mi</li>
+                <li title="Votos">★ 98 mil</li>
+                <li title="Capítulos">☰ 12</li>
+              </ul>
+              <span class="status">Em andamento</span>
+            </div>
+          </article>
+          <article class="livro">
+            <a class="capa" href="#" aria-label="Ler Bastidores de Hollywood">
+              <img src="img/romance.jpg" alt="" width="960" height="720" loading="lazy">
+              <span class="ranking">#2</span>
+              <span class="capa-titulo">Bastidores de Hollywood</span>
+              <span class="capa-autor">@luzdecinema</span>
+            </a>
+            <div class="livro-info">
+              <h3>Bastidores de Hollywood</h3>
+              <ul class="stats">
+                <li title="Leituras">👁 1,8 mi</li>
+                <li title="Votos">★ 120 mil</li>
+                <li title="Capítulos">☰ 8</li>
+              </ul>
+              <span class="status">Novo capítulo</span>
+            </div>
+          </article>
+          <article class="livro">
+            <a class="capa" href="#" aria-label="Ler A Mansão do Fim da Rua">
+              <img src="img/terror.jpg" alt="" width="960" height="720" loading="lazy">
+              <span class="ranking">#3</span>
+              <span class="capa-titulo">A Mansão do Fim da Rua</span>
+              <span class="capa-autor">@noite_eterna</span>
+            </a>
+            <div class="livro-info">
+              <h3>A Mansão do Fim da Rua</h3>
+              <ul class="stats">
+                <li title="Leituras">👁 950 mil</li>
+                <li title="Votos">★ 61 mil</li>
+                <li title="Capítulos">☰ 20</li>
+              </ul>
+              <span class="status status-completa">Completa</span>
+            </div>
+          </article>
+          <article class="livro">
+            <a class="capa" href="#" aria-label="Ler Estrelas Cruzadas">
+              <img src="img/ficcao.jpg" alt="" width="960" height="720" loading="lazy">
+              <span class="ranking">#4</span>
+              <span class="capa-titulo">Estrelas Cruzadas</span>
+              <span class="capa-autor">@orbita.azul</span>
+            </a>
+            <div class="livro-info">
+              <h3>Estrelas Cruzadas</h3>
+              <ul class="stats">
+                <li title="Leituras">👁 730 mil</li>
+                <li title="Votos">★ 44 mil</li>
+                <li title="Capítulos">☰ 5</li>
+              </ul>
+              <span class="status">Em andamento</span>
+            </div>
+          </article>
+          <article class="livro">
+            <a class="capa" href="#" aria-label="Ler A Carta Esquecida">
+              <img src="img/misterio.jpg" alt="" width="960" height="720" loading="lazy">
+              <span class="ranking">#5</span>
+              <span class="capa-titulo">A Carta Esquecida</span>
+              <span class="capa-autor">@detetive.lu</span>
+            </a>
+            <div class="livro-info">
+              <h3>A Carta Esquecida</h3>
+              <ul class="stats">
+                <li title="Leituras">👁 1,1 mi</li>
+                <li title="Votos">★ 77 mil</li>
+                <li title="Capítulos">☰ 15</li>
+              </ul>
+              <span class="status">Novo capítulo</span>
+            </div>
+          </article>
+          <article class="livro">
+            <a class="capa" href="#" aria-label="Ler O Reino Mais Atrapalhado">
+              <img src="img/comedia.jpg" alt="" width="960" height="720" loading="lazy">
+              <span class="ranking">#6</span>
+              <span class="capa-titulo">O Reino Mais Atrapalhado</span>
+              <span class="capa-autor">@bobo_da_corte</span>
+            </a>
+            <div class="livro-info">
+              <h3>O Reino Mais Atrapalhado</h3>
+              <ul class="stats">
+                <li title="Leituras">👁 610 mil</li>
+                <li title="Votos">★ 39 mil</li>
+                <li title="Capítulos">☰ 6</li>
+              </ul>
+              <span class="status">Em andamento</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destaque -->
+    <section class="destaque">
+      <div class="container destaque-box">
+        <div class="destaque-capa">
+          <img src="img/fantasia.jpg" alt="Capa de O Último Portal" width="960" height="720">
+        </div>
+        <div class="destaque-info">
+          <span class="etiqueta etiqueta-clara">⭐ Escolha dos editores</span>
+          <h2>O Último Portal</h2>
+          <p class="autor">por @estrela_cadente</p>
+          <p>Quando as cores começam a sumir dos desenhos animados, dois heróis de mundos diferentes precisam trabalhar juntos para salvar a imaginação — antes que o último portal se feche.</p>
+          <ul class="stats stats-grandes">
+            <li><strong>2,4 mi</strong> leituras</li>
+            <li><strong>98 mil</strong> votos</li>
+            <li><strong>12</strong> partes</li>
+          </ul>
+          <div class="hero-acoes">
+            <a class="botao botao-grande botao-claro" href="#">Ler agora</a>
+            <a class="botao botao-grande botao-vazado" href="#">+ Biblioteca</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lista de leitura -->
+    <section class="secao">
+      <div class="container">
+        <div class="titulo-secao">
+          <div>
+            <h2>Porque você gosta de crossovers</h2>
+            <p>Histórias onde universos diferentes se encontram.</p>
+          </div>
+        </div>
+        <div class="lista">
+          <article class="item-lista">
+            <img src="img/fantasia.jpg" alt="Capa de O Último Portal" width="960" height="720" loading="lazy">
+            <div>
+              <p class="tag-genero">Fantasia</p>
+              <h3>O Último Portal</h3>
+              <p class="autor">por @estrela_cadente</p>
+              <ul class="stats"><li>👁 2,4 mi</li><li>★ 98 mil</li><li>☰ 12 partes</li></ul>
+              <ul class="hashtags"><li>#fanfic</li><li>#fantasia</li><li>#crossover</li></ul>
+            </div>
+            <a class="botao botao-pequeno" href="#" aria-label="Adicionar O Último Portal à biblioteca">+ Biblioteca</a>
+          </article>
+          <article class="item-lista">
+            <img src="img/romance.jpg" alt="Capa de Bastidores de Hollywood" width="960" height="720" loading="lazy">
+            <div>
+              <p class="tag-genero">Romance</p>
+              <h3>Bastidores de Hollywood</h3>
+              <p class="autor">por @luzdecinema</p>
+              <ul class="stats"><li>👁 1,8 mi</li><li>★ 120 mil</li><li>☰ 8 partes</li></ul>
+              <ul class="hashtags"><li>#fanfic</li><li>#romance</li><li>#crossover</li></ul>
+            </div>
+            <a class="botao botao-pequeno" href="#" aria-label="Adicionar Bastidores de Hollywood à biblioteca">+ Biblioteca</a>
+          </article>
+          <article class="item-lista">
+            <img src="img/terror.jpg" alt="Capa de A Mansão do Fim da Rua" width="960" height="720" loading="lazy">
+            <div>
+              <p class="tag-genero">Terror</p>
+              <h3>A Mansão do Fim da Rua</h3>
+              <p class="autor">por @noite_eterna</p>
+              <ul class="stats"><li>👁 950 mil</li><li>★ 61 mil</li><li>☰ 20 partes</li></ul>
+              <ul class="hashtags"><li>#fanfic</li><li>#terror</li><li>#crossover</li></ul>
+            </div>
+            <a class="botao botao-pequeno" href="#" aria-label="Adicionar A Mansão do Fim da Rua à biblioteca">+ Biblioteca</a>
+          </article>
+          <article class="item-lista">
+            <img src="img/ficcao.jpg" alt="Capa de Estrelas Cruzadas" width="960" height="720" loading="lazy">
+            <div>
+              <p class="tag-genero">Ficção científica</p>
+              <h3>Estrelas Cruzadas</h3>
+              <p class="autor">por @orbita.azul</p>
+              <ul class="stats"><li>👁 730 mil</li><li>★ 44 mil</li><li>☰ 5 partes</li></ul>
+              <ul class="hashtags"><li>#fanfic</li><li>#ficção</li><li>#crossover</li></ul>
+            </div>
+            <a class="botao botao-pequeno" href="#" aria-label="Adicionar Estrelas Cruzadas à biblioteca">+ Biblioteca</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Escrever -->
+    <section id="escrever" class="secao secao-escrever">
+      <div class="container">
+        <div class="titulo-secao titulo-centro">
+          <div>
+            <h2>Sua história merece leitores</h2>
+            <p>Publicar sua fanfic leva menos de 5 minutos.</p>
+          </div>
+        </div>
+        <ol class="passos">
+          <li><span class="passo-numero">1</span><h3>Crie a capa</h3><p>Escolha uma imagem, o título e o fandom da sua história.</p></li>
+          <li><span class="passo-numero">2</span><h3>Escreva por partes</h3><p>Publique um capítulo de cada vez, no seu ritmo.</p></li>
+          <li><span class="passo-numero">3</span><h3>Ganhe votos</h3><p>Leitores comentam, votam e seguem você.</p></li>
+        </ol>
+        <div class="centro"><a class="botao botao-grande" href="#">✍️ Começar a escrever</a></div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container">
+        <div>
+          <h2>Nenhum capítulo novo passa batido</h2>
+          <p>Receba avisos das histórias que você segue.</p>
+        </div>
+        <form class="form-newsletter" action="#" method="post">
+          <input type="email" name="email" placeholder="Seu melhor e-mail" aria-label="Seu e-mail" required>
+          <button class="botao botao-escuro" type="submit">Quero receber</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="contato" class="rodape">
+    <div class="container">
+      <div class="rodape-grade">
+        <div>
+          <p class="logo"><span class="logo-icone">F</span> Fanverso</p>
+          <p>Uma comunidade para ler e escrever fanfics com os personagens que você ama.</p>
+        </div>
+        <div>
+          <h3>Explorar</h3>
+          <ul><li><a href="#em-alta">Em alta</a></li><li><a href="#fandoms">Fandoms</a></li><li><a href="#">Completas</a></li></ul>
+        </div>
+        <div>
+          <h3>Escritores</h3>
+          <ul><li><a href="#escrever">Começar a escrever</a></li><li><a href="#">Dicas de escrita</a></li><li><a href="#">Concursos</a></li></ul>
+        </div>
+        <div>
+          <h3>Contato</h3>
+          <address><p><a href="mailto:oi@fanverso.exemplo">oi@fanverso.exemplo</a></p><p>Instagram · TikTok</p></address>
+        </div>
+      </div>
+      <div class="rodape-base">
+        <p>Fanverso é um site fictício, criado para fins didáticos. Histórias e autores são inventados.</p>
+        <a href="#topo">Voltar ao topo ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
